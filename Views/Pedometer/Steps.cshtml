@@ -1,0 +1,15 @@
+﻿@model Calorie
+
+<div class="p-5">
+
+	<form method="post" asp-action="StepsToCalories" class="shadow-lg rounded-1 px-3 py-5">
+
+		<label for="nmbr" class="form-label">Number Of Steps</label>
+		<input type="number" class=" form-control mb-3" id="nmbr" asp-for="NumberOfSteps" />
+
+		<button type="submit" class="btn btn-primary">Enter</button>
+
+
+	</form>
+
+</div>

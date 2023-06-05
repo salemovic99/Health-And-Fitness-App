@@ -1,0 +1,14 @@
+﻿@model Calorie
+
+<form method="post" asp-action="Delete">
+
+		<h3>Are You Sure You Want Delete This</h3>
+		<hr />
+		<h4>Id :  @Model.Id</h4>
+		<h4>Number Of Steps : @Model.NumberOfSteps</h4>
+		<h4>Date : @Model.Date</h4>
+
+		<button type="submit" class="btn btn-danger"  >Delete</button>
+		<a class="btn btn-outline-primary" asp-action="Index">Cancel</a>
+
+</form>

@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Calorie>
+
+
+<h2>Steps And Calories</h2>
+<a class="btn btn-primary" asp-action="Steps">Create</a>
+<table class="table table-striped">
+
+	<thead>
+		<tr>
+			<th>Steps</th>
+			<th>Date</th>
+			<th></th>
+		</tr>
+	</thead>
+
+	<tbody>
+
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>@item.NumberOfSteps</td>
+				<td>@item.Date</td>
+				<td><a class="btn btn-danger" href="/Pedometer/Delete/@item.Id">Delete</a></td>
+			</tr>
+		}
+	</tbody>
+
+</table>
