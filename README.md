@@ -29,7 +29,7 @@ A comprehensive Health and Fitness web application built using ASP.NET Core MVC.
 
 ## Health-And-Fitness-App/
 │
-├── Controllers/ # MVC Controllers (Home, User, Workout, etc.)
+├── Controllers/ # MVC Controllers (Home, User, Workout, etc.) <br/>
 ├── Models/ # Data models (User, Exercise, MealPlan, etc.)
 ├── Views/ # Razor views (.cshtml files)
 ├── Data/ # Database context
